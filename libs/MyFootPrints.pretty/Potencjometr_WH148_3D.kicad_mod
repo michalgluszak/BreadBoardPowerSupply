@@ -1,0 +1,216 @@
+(footprint "Potencjometr_WH148_3D"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, vertical, Vishay 148-149 Single, http://www.vishay.com/docs/57040/148149.pdf")
+	(tags "Potentiometer vertical Vishay 148-149 Single")
+	(property "Reference" "REF**"
+		(at 6.175 -10.04 0)
+		(layer "F.SilkS")
+		(uuid "bffe9a53-b7a7-4582-bb57-883444a8b774")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Potencjometr_WH148_3D"
+		(at 6.175 4.96 0)
+		(layer "F.Fab")
+		(uuid "f68f9dc1-0688-4b90-be50-880c4a30eb73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bac1056-2088-445f-a6d0-31527e37c33f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b3c7f32-b72d-45e3-b04f-cc65dec0a218")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "potentiometer/THT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5c0526f7-33de-4e33-bb97-c923751da5ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0.64 -8.9)
+		(end 13.36 -8.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c89520c-1aa3-4082-8fe9-600b1ca15f87")
+	)
+	(fp_line
+		(start 0.64 -6.011)
+		(end 0.64 -8.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3a23990-888e-4fcd-b124-8b0be5c14191")
+	)
+	(fp_line
+		(start 0.64 -3.471)
+		(end 0.64 -4.149)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "483be06a-1469-42ad-887d-6039072b02ce")
+	)
+	(fp_line
+		(start 0.64 -0.931)
+		(end 0.64 -1.609)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc3b5fd0-3fa2-49b9-91f7-03411d1304e4")
+	)
+	(fp_line
+		(start 0.64 3.82)
+		(end 0.64 0.931)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f723022-53d6-4810-8d10-da5d3d625aff")
+	)
+	(fp_line
+		(start 13.36 -8.9)
+		(end 13.36 3.82)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "500fb676-888b-4cd4-ad7b-79acf2610378")
+	)
+	(fp_line
+		(start 13.36 3.82)
+		(end 0.64 3.82)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e30259e2-8542-4adf-93d0-c811fccef403")
+	)
+	(fp_rect
+		(start -1.15 -9.04)
+		(end 13.5 3.96)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "90db76fb-1078-4c5f-8f80-4f81a14fc4c2")
+	)
+	(fp_rect
+		(start 0.75 -8.79)
+		(end 13.25 3.71)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5137e6eb-b200-4fa9-a8a8-303f5aa4bef5")
+	)
+	(fp_circle
+		(center 7 -2.54)
+		(end 8.585 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "321564bc-5983-4509-9a4e-91eda1b276ba")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.75 -2.54 90)
+		(layer "F.Fab")
+		(uuid "f4445dcc-fcba-4475-8af5-a6f564e8ed1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f1c6a0d6-968d-4f59-aba3-5c85cec911c3")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.54)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "da9455e1-182c-40a9-92fc-4f5e921f9647")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -5.08)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "79f6ee4c-9cc2-47c3-9f43-6fadc09b961e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/models_3d/POTENTIOMETER.STEP"
+		(offset
+			(xyz -2.7 2.5 6)
+		)
+		(scale
+			(xyz 0.5 0.5 0.5)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
