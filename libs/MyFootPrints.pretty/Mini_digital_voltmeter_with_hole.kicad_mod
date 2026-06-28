@@ -1,0 +1,335 @@
+(footprint "Mini_digital_voltmeter_with_hole"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3647193e-9dc4-43fb-86b0-184c3041fdc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Mini_digital_voltmeter_with_hole"
+		(at 0 -0.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4ad840e7-1834-454a-b14b-ee2636e36e72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8a66800-4930-41b4-bb59-c05bda4ef38e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3495d475-6019-4a58-96b6-a8e9f02afb5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -16.6 -2.5)
+		(end -16.6 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d448009-bbf6-4984-8614-4bc54ae25c82")
+	)
+	(fp_line
+		(start -16.6 2.5)
+		(end -12.1 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b82763ea-f4ba-4800-8384-b6699638fab7")
+	)
+	(fp_line
+		(start -12.1 -7.5)
+		(end -12.1 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5e2a485e-1d21-4e50-bbd3-acbbcc14502b")
+	)
+	(fp_line
+		(start -12.1 -2.5)
+		(end -16.6 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "31fee293-0ee8-4da0-a2ae-6c3fc893574e")
+	)
+	(fp_line
+		(start -12.1 2.5)
+		(end -12.1 7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9989c04c-86a5-4225-82d2-32ca68b5d20e")
+	)
+	(fp_line
+		(start -12.1 7.5)
+		(end -12.1 9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2fd1f94c-489d-4087-9dcf-86503a592781")
+	)
+	(fp_line
+		(start -12.1 9)
+		(end -12.1 10.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ffc1ac52-39b9-441e-bf50-8bcbbd0e73b2")
+	)
+	(fp_line
+		(start -12.1 10.65)
+		(end 11.9 10.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f22c63b2-f18f-432e-b558-74b7d97db5df")
+	)
+	(fp_line
+		(start 11.9 -7.5)
+		(end -12.1 -7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3088015f-f198-4f5f-aae0-feab6a82a252")
+	)
+	(fp_line
+		(start 11.9 -2.5)
+		(end 11.9 -7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e29e03c9-1122-4733-ba25-cd0552b75b58")
+	)
+	(fp_line
+		(start 11.9 2.5)
+		(end 16.4 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cfe5c66b-bcfe-41f8-83e7-2a8ae0032225")
+	)
+	(fp_line
+		(start 11.9 7.5)
+		(end 11.9 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b77f803-1181-40b0-9373-ff2552d7fe4f")
+	)
+	(fp_line
+		(start 11.9 7.5)
+		(end 11.9 9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5a1b0e5a-6236-4e77-aa16-9fb76e46d345")
+	)
+	(fp_line
+		(start 11.9 9)
+		(end 11.9 10.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a5218dd-0c46-4031-adfa-ad6e306ee933")
+	)
+	(fp_line
+		(start 16.4 -2.5)
+		(end 11.9 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "689d48b8-57f4-475c-a3be-db16d241af69")
+	)
+	(fp_line
+		(start 16.4 2.5)
+		(end 16.4 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "878feb40-949c-4ae1-b67d-dbea5440be63")
+	)
+	(fp_text user "M+"
+		(at 3.95 10.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ea7092ef-e9b0-4d52-aba5-cfb9b13107c0")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.09)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "VCC"
+		(at 6.25 10.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2d66b877-95f2-41e6-a394-e2b34bbdd2d7")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.09)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at 8.7 10.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c8c4b7a2-d7e5-4070-b167-dc4af38fe8aa")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.09)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.15 1.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1f7ebc73-7dcb-4cc4-ac0b-fe22d1695e60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.15 1.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "43ba9e0d-3b01-4694-a128-e529ae5a33df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -14.1 0)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7675ad0e-9686-4db7-ae84-3345e10bd799")
+	)
+	(pad "" np_thru_hole circle
+		(at 13.9 0)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "8d974dd6-cf33-45ce-9a5c-9295bd6ca45a")
+	)
+	(pad "1" thru_hole circle
+		(at 4.45 8.65)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "27683eee-0e11-435e-923d-96bf734a0043")
+	)
+	(pad "2" thru_hole circle
+		(at 6.95 8.6)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e44b5a62-8a50-4e62-8510-e29cb3692f31")
+	)
+	(pad "3" thru_hole roundrect
+		(at 9.5 8.65)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "9c8d312c-bba2-488d-9c4f-3607f9c6a070")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/models_3d/Voltage_Indicator.stp"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 0.97 0.37 1.47)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
